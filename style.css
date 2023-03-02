@@ -1,0 +1,76 @@
+.score{
+    width:100%;
+    background-color: black;
+    height: 70px; text-align: center;
+
+}
+body{
+    color: white;
+}
+
+.game {
+    /* width: 400px;
+    height: 90vh;
+    position: relative;
+    background-color: black;
+    margin: auto; */
+    background-color: black;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    left: 37%;
+}
+
+.start {
+    background-color:black;
+    padding: 20px;
+    color: red;
+    height: 70px;
+    width: 600px;
+    position: absolute;
+    margin-left: 28%;
+    margin-top:22px;
+    z-index: 1;
+    text-align: center;
+}
+p{
+    font-size: 12px;
+}
+.hide {
+    display:none;
+}
+
+.line {
+    background-color: white;
+    height: 100px;
+    position: absolute;
+    left: 47%;
+    width: 10px;
+}
+/* .enemy {
+    position: absolute;
+    height: 80px;
+    width: 70px;
+    background-color: green;
+} */
+.car , .enemy {
+    position: absolute;
+    bottom: 100px;
+    margin:auto;
+      /* padding-right:50px; */
+    width: 50px;
+    height: 100px;
+    background-color:white;
+ 
+    background-image:url(https://cdn.iconscout.com/icon/free/png-512/car-top-view-3600315-3001032.png?f=avif&w=512);
+    background-size: 100% 100%; 
+/* background-size: cover; */
+    background-repeat: no-repeat;
+  }
+
+
+  
+  
+  
